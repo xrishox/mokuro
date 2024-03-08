@@ -53,7 +53,7 @@ $> mokuro my-manga-1 --mobile True --disable_confirmation True
 # Installation
 
 ```bash
-$> pip install git+https://github.com/ZXY101/mokuro.git@master
+$> pip install git+https://github.com/xrishox/mokuro.git@master
 ```
 
 (You may need to uninstall mokuro first)
