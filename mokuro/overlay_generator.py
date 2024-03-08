@@ -97,7 +97,7 @@ class OverlayGenerator:
                 shutil.copy(MOBILE_SCRIPT_PATH, out_dir / 'script.mobile.js')
                 shutil.copy(MOBILE_STYLES_PATH, out_dir / 'styles.mobile.css')
 
-        img_paths = [p for p in path.glob('**/*') if p.is_file() and p.suffix.lower() in ('.jpg', '.jpeg', '.png')]
+        img_paths = [p for p in path.glob('**/*') if p.is_file() and p.suffix.lower() in ('.jpg', '.jpeg', '.png', '.webp')]
         img_paths = natsorted(img_paths)
 
         page_htmls = []
